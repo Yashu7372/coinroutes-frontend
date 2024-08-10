@@ -1,0 +1,51 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.currency-selector {
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.widgets {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-of-book, .price-chart, .order-book {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 10px;
+}
+
+.order-book-section {
+  margin-bottom: 10px;
+}
+
+.order-book-section h4 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.aggregation-controls {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+}

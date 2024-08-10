@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+CoinRoutes is a real-time cryptocurrency tracking web application that displays live data from Coinbase Pro. It features various widgets to show real-time price information, historical data, and an order book with bid and ask prices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Top of Book: Displays the best bid and ask prices along with their respective quantities and spread.
+Real-Time Price Chart: Shows a line chart of the best bid and ask prices over time.
+Order Book: Displays aggregated bids and asks with adjustable aggregation levels.
+Currency Selector: Allows users to switch between different cryptocurrency pairs.
+Technologies Used
+React: Front-end framework for building user interfaces.
+Recharts: Charting library for visualizing data.
+Coinbase Pro WebSocket API: For real-time data streaming.
+Coinbase Pro REST API: For fetching historical data.
+Installation
+To set up and run this application locally, follow these steps:
 
-## Available Scripts
+Clone the Repository
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/your-username/coinroutes.git
+cd coinroutes
+Install Dependencies
 
-### `npm start`
+Ensure you have Node.js installed. Then, run:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Start the Development Server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+The application will be available at http://localhost:3000.
 
-### `npm test`
+Usage
+Select a Cryptocurrency Pair
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use the dropdown menu to choose a cryptocurrency pair from the available options.
 
-### `npm run build`
+View Real-Time Data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Top of Book widget will display the best bid and ask prices along with their quantities. The Price Chart will show a real-time line chart of these prices. The Order Book will show aggregated bid and ask prices with adjustable aggregation levels.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Adjust Aggregation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In the Order Book widget, you can change the aggregation level to view more or less detailed bid and ask prices.
 
-### `npm run eject`
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request with improvements or bug fixes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fork the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click the "Fork" button at the top-right corner of this repository page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a New Branch
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+git checkout -b feature/your-feature
+Make Your Changes
 
-## Learn More
+Commit Your Changes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy code
+git add .
+git commit -m "Add a descriptive commit message"
+Push to Your Fork
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy code
+git push origin feature/your-feature
+Submit a Pull Request
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Go to the original repository and click "New Pull Request".
